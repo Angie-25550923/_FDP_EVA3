@@ -1,0 +1,29 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Instale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+
+PS C:\> cd practicass
+PS C:\practicass> java Prueba
+Error: no se ha encontrado o cargado la clase principal Prueba
+Causado por: java.lang.ClassNotFoundException: Prueba
+PS C:\practicass> cd
+PS C:\practicass> java Prueba.java
+Prueba.java:2: error: '{' or ';' expected
+       public static void main(String[] args)}
+                                             ^
+Prueba.java:3: error: class, interface, enum, or record expected
+       System.out.println("Hola mundo");
+       ^
+Prueba.java:6: error: class, interface, enum, or record expected
+       }
+       ^
+3 errors
+error: compilation failed
+PS C:\practicass> java Prueba.java
+Hola mundo
+PS C:\practicass>
+
+
+
+
